@@ -6,7 +6,8 @@ This project analyzes the effectiveness of digital marketing campaigns using key
 
 Using a dataset that tracks marketing expenditures and campaign performance, this analysis provides insights into which campaigns, locations, and time periods drive the best results.
 
-📌 Key Questions Addressed:
+
+## Key Questions Addressed:
 
 1️⃣ What is the overall Return on Marketing Investment (ROMI)?
 
@@ -45,7 +46,34 @@ The dataset includes daily marketing spend, impressions, clicks, leads, orders, 
 
 ## Key Metrics & Formulas 📊
 
-Insights & Visualizations 📈
+> Return on Marketing Investment (ROMI)
+
+ROMI = Revenue − Marketing Cost/Marketing Cost
+​
+> Click-Through Rate (CTR)
+
+CTR = Clicks/Impressions × 100
+
+> Conversion Rate 1 (Visitors → Leads)
+
+> Conversion 1 = Leads/Clicks × 100
+
+> Conversion Rate 2 (Leads → Sales)
+> Conversion 2 = Orders/Leads × 100
+
+Customer Acquisition Cost (CAC)
+
+> CAC = Marketing Spend/Orders
+
+Average Order Value (AOV)
+
+> AOV = Revenue/Orders
+​
+ 
+
+
+
+## Insights & Visualizations 📈
 
 ### 1. Revenue & ROMI by Campaign
 
@@ -58,6 +86,7 @@ Insights & Visualizations 📈
 ✔️ Facebook campaigns reported negative revenue (loss) and the lowest ROI.
 
 ![Revenue/ROI](https://github.com/OlanikeCJ/Digital_Marketing_Analysis/blob/main/Images%20-%20DigiMakting/revenue_roi.png)
+
 
 ### 2. Conversions & ROMI by City Category
 
@@ -75,6 +104,7 @@ where
 *conversion 1* represents the conversion from visitors to leads for each campaign, and 
 *conversion 2* represents the conversion rate from leads to sales. 
 
+
 ### 3. Revenue & Conversion Rates by Date
 
 📌 Key Takeaways:
@@ -84,6 +114,7 @@ where
 ✔️ Conversion 1 rate remained stable across different dates.
 
 ![conversion_by_date](https://github.com/OlanikeCJ/Digital_Marketing_Analysis/blob/main/conversion_by_date.png?raw=true)
+
 
 ### 4. Revenue & Marketing Cost by Date
 
@@ -95,11 +126,13 @@ where
 
 ![Rev_mktcost_by_date](https://github.com/OlanikeCJ/Digital_Marketing_Analysis/blob/main/Images%20-%20DigiMakting/rev_and_mkt_cost%20_by_date.png?raw=true)
 
+
 ### 5. Revenue & Marketing Cost by Date
 
 📌 Key Takeaways:
 
 ✔️ The analysis reveals that average revenue on weekdays is slightly higher than on weekends. This suggests that users may be more engaged with purchases during workdays, possibly due to structured routines, targeted weekday marketing strategies, or budget-conscious weekend spending. 
 
+![avg_rev_day_category](https://github.com/OlanikeCJ/Digital_Marketing_Analysis/blob/main/Images%20-%20DigiMakting/avg_rev_by_day_category.png?raw=true)
 
 
