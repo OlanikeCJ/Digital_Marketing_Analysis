@@ -93,6 +93,8 @@ where
 
 ✔️ There may have been an external factor/event driving high spending and returns that day.
 
+![Rev_mktcost_by_date](https://github.com/OlanikeCJ/Digital_Marketing_Analysis/blob/main/Images%20-%20DigiMakting/rev_and_mkt_cost%20_by_date.png?raw=true)
+
 
 
 
