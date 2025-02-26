@@ -83,7 +83,7 @@ where
 
 ✔️ Conversion 1 rate remained stable across different dates.
 
-![conversion_by_date](https://github.com/OlanikeCJ/Digital_Marketing_Analysis/blob/main/Images%20-%20DigiMakting/conversion_by_date.png?raw=true)
+![conversion_by_date](https://github.com/OlanikeCJ/Digital_Marketing_Analysis/blob/main/conversion_by_date.png?raw=true)
 
 4️⃣ Revenue & Marketing Cost by Date
 
