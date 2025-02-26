@@ -46,52 +46,15 @@ The dataset includes daily marketing spend, impressions, clicks, leads, orders, 
 
 > Revenue – Total money earned from the campaign
 
-## Key Metrics & Formulas 📊
+The following additional columns were created for correctness and coherence:
 
-DAX
-```
-1. Average Order Value = calculate([Total Revenue]/COUNT(Marketing[orders]))
-2. Avg Revenue = AVERAGE(Marketing[revenue])
-3. CAC = CALCULATE([Marketing Cost]/SUM(Marketing[orders]))
-4. Conversion 1 = SUM(Marketing[leads])/SUM(Marketing[clicks])
-5. Conversion 2 = sum(Marketing[orders])/sum(Marketing[leads])
-6. Cost Per Click = CALCULATE([Marketing Cost]/[Total Clicks])
-7. Cost Per Lead = CALCULATE([Marketing Cost]/SUM(Marketing[leads]))
-8. Gross Profit = CALCULATE([Total Revenue]-[Marketing Cost])
-9. Marketing Cost = SUM(Marketing[mark_spent])
-10.ROMI = CALCULATE(([Total Revenue]-[Marketing Cost])/[Marketing Cost])
-11.Total Clicks = SUM(Marketing[clicks])
-12.Total Revenue = SUM(Marketing[revenue])
+> Day category 
 
-```
+> Day Name
 
+> Campaign Target
 
-> Return on Marketing Investment (ROMI)
-
-ROMI = Revenue − Marketing Cost/Marketing Cost
-​
-> Click-Through Rate (CTR)
-
-CTR = Clicks/Impressions × 100
-
-> Conversion Rate 1 (Visitors → Leads)
-
-> Conversion 1 = Leads/Clicks × 100
-
-> Conversion Rate 2 (Leads → Sales)
-> Conversion 2 = Orders/Leads × 100
-
-Customer Acquisition Cost (CAC)
-
-> CAC = Marketing Spend/Orders
-
-Average Order Value (AOV)
-
-> AOV = Revenue/Orders
-​
- 
-
-
+> City Category
 
 ## Insights & Visualizations 📈
 
@@ -149,11 +112,42 @@ where
 
 ### 5. Revenue & Marketing Cost by Date
 
-📌 Key Takeaways:
+📌 Key Takeaway:
 
 ✔️ The analysis reveals that average revenue on weekdays is slightly higher than on weekends. This suggests that users may be more engaged with purchases during workdays, possibly due to structured routines, targeted weekday marketing strategies, or budget-conscious weekend spending. 
 
 ![avg_rev_day_category](https://github.com/OlanikeCJ/Digital_Marketing_Analysis/blob/main/Images%20-%20DigiMakting/avg_rev_by_day_category.png?raw=true)
+
+
+## Key Metrics & Formulas 📊
+
+> Return on Marketing Investment (ROMI)
+
+ROMI = Revenue − Marketing Cost/Marketing Cost
+​
+> Click-Through Rate (CTR)
+
+CTR = Clicks/Impressions × 100
+
+> Conversion Rate 1 (Visitors → Leads)
+
+> Conversion 1 = Leads/Clicks × 100
+
+> Conversion Rate 2 (Leads → Sales)
+> Conversion 2 = Orders/Leads × 100
+
+Customer Acquisition Cost (CAC)
+
+> CAC = Marketing Spend/Orders
+
+Average Order Value (AOV)
+
+> AOV = Revenue/Orders
+
+
+You can find all calculated DAX measures used for this analysis in this file: [Dax_Measures.pbix](https://github.com/OlanikeCJ/Digital_Marketing_Analysis/commit/1c26682346620bd4983bd264a0c0d6b88aa011bf)
+
+
 
 
 
