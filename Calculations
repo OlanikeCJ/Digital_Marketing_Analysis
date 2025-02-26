@@ -1,0 +1,16 @@
+DAX 
+```
+Average Order Value = calculate([Total Revenue]/COUNT(Marketing[orders]))
+Avg Revenue = AVERAGE(Marketing[revenue])
+CAC = CALCULATE([Marketing Cost]/SUM(Marketing[orders]))
+Conversion 1 = SUM(Marketing[leads])/SUM(Marketing[clicks])
+Conversion 2 = sum(Marketing[orders])/sum(Marketing[leads])
+Cost Per Click = CALCULATE([Marketing Cost]/[Total Clicks])
+Cost Per Lead = CALCULATE([Marketing Cost]/SUM(Marketing[leads]))
+Gross Profit = CALCULATE([Total Revenue]-[Marketing Cost])
+Marketing Cost = SUM(Marketing[mark_spent])
+ROMI = CALCULATE(([Total Revenue]-[Marketing Cost])/[Marketing Cost])
+Total Clicks = SUM(Marketing[clicks])
+Total Revenue = SUM(Marketing[revenue])
+
+```
