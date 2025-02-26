@@ -60,15 +60,30 @@ Insights & Visualizations 📈
 ![Revenue/ROI](https://github.com/OlanikeCJ/Digital_Marketing_Analysis/blob/main/Images%20-%20DigiMakting/revenue_roi.png)
 
 2️⃣ Conversions & ROMI by City Category
+
 📌 Key Takeaways:
+
 ✔️ Tier 1 cities had the lowest Conversion 1 rate, but the margin was negligible (0.2% difference).
+
 ✔️ “Other” cities had the highest Conversion 2 rate and highest ROMI.
+
 ✔️ Tier 2 cities performed the worst in Conversion 2 rate and ROMI.
 
-📍 Suggested Image Placement:
-Add a table screenshot showing city categories, Conversion 1 & 2, and ROMI.
+![ROMI/Conversions/city](https://github.com/OlanikeCJ/Digital_Marketing_Analysis/blob/main/Images%20-%20DigiMakting/conv_city_category.png?raw=true)
 
-📍 Tooltip Suggestion:
-Use the interactive tooltip to briefly define Conversion 1 and Conversion 2.
+where 
+*conversion 1* represents the conversion from visitors to leads for each campaign, and 
+*conversion 2* represents the conversion rate from leads to sales. 
+
+3️⃣ Revenue & Conversion Rates by Date
+
+📌 Key Takeaways:
+
+✔️ The highest revenue and highest Conversion 2 rate were recorded on a specific date.
+
+✔️ Conversion 1 rate remained stable across different dates.
+
+
+
 
 
