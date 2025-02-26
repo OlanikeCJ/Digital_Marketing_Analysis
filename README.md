@@ -47,7 +47,7 @@ The dataset includes daily marketing spend, impressions, clicks, leads, orders, 
 
 Insights & Visualizations 📈
 
-1️⃣ Revenue & ROMI by Campaign
+### 1. Revenue & ROMI by Campaign
 
 📌 Key Takeaways:
 
@@ -59,7 +59,7 @@ Insights & Visualizations 📈
 
 ![Revenue/ROI](https://github.com/OlanikeCJ/Digital_Marketing_Analysis/blob/main/Images%20-%20DigiMakting/revenue_roi.png)
 
-2️⃣ Conversions & ROMI by City Category
+### 2. Conversions & ROMI by City Category
 
 📌 Key Takeaways:
 
@@ -75,7 +75,7 @@ where
 *conversion 1* represents the conversion from visitors to leads for each campaign, and 
 *conversion 2* represents the conversion rate from leads to sales. 
 
-3️⃣ Revenue & Conversion Rates by Date
+### 3. Revenue & Conversion Rates by Date
 
 📌 Key Takeaways:
 
@@ -85,7 +85,7 @@ where
 
 ![conversion_by_date](https://github.com/OlanikeCJ/Digital_Marketing_Analysis/blob/main/conversion_by_date.png?raw=true)
 
-4️⃣ Revenue & Marketing Cost by Date
+### 4. Revenue & Marketing Cost by Date
 
 📌 Key Takeaways:
 
@@ -95,6 +95,11 @@ where
 
 ![Rev_mktcost_by_date](https://github.com/OlanikeCJ/Digital_Marketing_Analysis/blob/main/Images%20-%20DigiMakting/rev_and_mkt_cost%20_by_date.png?raw=true)
 
+### 5. Revenue & Marketing Cost by Date
+
+📌 Key Takeaways:
+
+✔️ The analysis reveals that average revenue on weekdays is slightly higher than on weekends. This suggests that users may be more engaged with purchases during workdays, possibly due to structured routines, targeted weekday marketing strategies, or budget-conscious weekend spending. 
 
 
 
