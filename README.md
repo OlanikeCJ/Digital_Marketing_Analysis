@@ -83,6 +83,15 @@ where
 
 ✔️ Conversion 1 rate remained stable across different dates.
 
+![conversion_by_date](https://github.com/OlanikeCJ/Digital_Marketing_Analysis/blob/main/Images%20-%20DigiMakting/conversion_by_date.png?raw=true)
+
+4️⃣ Revenue & Marketing Cost by Date
+
+📌 Key Takeaways:
+
+✔️ The highest marketing spend and revenue occurred on Saturday, Feb 20, 2021.
+
+✔️ There may have been an external factor/event driving high spending and returns that day.
 
 
 
