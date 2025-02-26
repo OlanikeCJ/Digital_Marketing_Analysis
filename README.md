@@ -48,6 +48,24 @@ The dataset includes daily marketing spend, impressions, clicks, leads, orders, 
 
 ## Key Metrics & Formulas 📊
 
+DAX
+```
+1. Average Order Value = calculate([Total Revenue]/COUNT(Marketing[orders]))
+2. Avg Revenue = AVERAGE(Marketing[revenue])
+3. CAC = CALCULATE([Marketing Cost]/SUM(Marketing[orders]))
+4. Conversion 1 = SUM(Marketing[leads])/SUM(Marketing[clicks])
+5. Conversion 2 = sum(Marketing[orders])/sum(Marketing[leads])
+6. Cost Per Click = CALCULATE([Marketing Cost]/[Total Clicks])
+7. Cost Per Lead = CALCULATE([Marketing Cost]/SUM(Marketing[leads]))
+8. Gross Profit = CALCULATE([Total Revenue]-[Marketing Cost])
+9. Marketing Cost = SUM(Marketing[mark_spent])
+10.ROMI = CALCULATE(([Total Revenue]-[Marketing Cost])/[Marketing Cost])
+11.Total Clicks = SUM(Marketing[clicks])
+12.Total Revenue = SUM(Marketing[revenue])
+
+```
+
+
 > Return on Marketing Investment (ROMI)
 
 ROMI = Revenue − Marketing Cost/Marketing Cost
@@ -136,5 +154,8 @@ where
 ✔️ The analysis reveals that average revenue on weekdays is slightly higher than on weekends. This suggests that users may be more engaged with purchases during workdays, possibly due to structured routines, targeted weekday marketing strategies, or budget-conscious weekend spending. 
 
 ![avg_rev_day_category](https://github.com/OlanikeCJ/Digital_Marketing_Analysis/blob/main/Images%20-%20DigiMakting/avg_rev_by_day_category.png?raw=true)
+
+
+
 
 
