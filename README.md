@@ -1,5 +1,7 @@
 # Digital_Marketing_Analysis
 
+![dashboard](https://github.com/OlanikeCJ/Digital_Marketing_Analysis/blob/main/Images%20-%20DigiMakting/digital_mkt-dashboard.png?raw=true)
+
 ## Project Overview
 
 This project analyzes the effectiveness of digital marketing campaigns using key performance indicators (KPIs) such as Return on Marketing Investment (ROMI), Cost Per Click (CPC), Cost Per Lead (CPL), Customer Acquisition Cost (CAC), and Conversion Rates.
